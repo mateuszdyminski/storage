@@ -5,7 +5,6 @@ metadata:
   labels:
     type: local
 spec:
-  storageClassName: cheap
   capacity:
     storage: 10Gi
   accessModes:
@@ -13,5 +12,6 @@ spec:
   - ReadWriteOnce
   - ReadOnlyMany
   persistentVolumeReclaimPolicy: Retain
-  hostPath:
-    path: "/mnt/data"
+  awsElasticBlockStore: 
+    fsType: "ext4" 
+    volumeID: "vol-f37a03aa"
