@@ -1,6 +1,6 @@
 # Storage
 
-Repository contains `pptx` presentation and `yaml` snippets used in my talk: "Understanding Kubernetes Storage" which I gave at [Cloud Native Warsaw](http://cloudnativewarsaw.com/)
+Repository contains `pptx` presentation and `yaml` snippets used in my talk: "Understanding Kubernetes Storage" and "Kubernetes Storage - myths, facts and tips" which I gave at [Cloud Native Warsaw](http://cloudnativewarsaw.com/) and [4developers](https://4developers.org.pl/festiwal-2020/).
 
 ## Presentation
 
